@@ -1,0 +1,43 @@
+body {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+aside {
+    width: 20%;
+    min-height: 100vh;
+    background-color: #002c42;
+    color: whitesmoke;
+    
+}
+ span {
+     color: #07A3F6;
+     /* border-bottom-color: #07A3F6; 
+     border-bottom-style: solid;
+     border-bottom-width: 3px;
+     padding-bottom: 1px; */
+    
+ }
+ p {
+     padding-left: 20px;
+ }
+ main {
+    width: 80%;
+    min-height: 100vh;
+   background-color: #636777;
+   color: whitesmoke;
+ }
+ 
+ .container {
+    width: 100%;
+    margin-left: 50px;
+    border-bottom: 3px solid #07A3F6;
+    padding-bottom: 1px;
+ }
+
+ .krug {
+     height: 250px;
+     width: 250px;
+     background-color: #07A3F6;
+     border-radius: 50%;
+ }
